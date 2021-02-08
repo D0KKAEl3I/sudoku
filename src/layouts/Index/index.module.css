@@ -1,0 +1,14 @@
+.slotContainer{
+    width: 80vh;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px auto 0 auto;
+    border: var(--slot-border);
+}
+@media(max-width:80vh){
+    .slotContainer{
+        width: 100vw;
+        height: 100vw;
+    }
+}

@@ -1,0 +1,13 @@
+.slot{
+    width: calc(100%/9);
+    height: calc(100%/9);
+    border: var(--slot-border);
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 56px;
+    font-weight: bold;
+    background-color: white;
+}
+.highlight{
+    background-color: rgb(210, 210, 210);
+}
